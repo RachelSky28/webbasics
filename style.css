@@ -28,7 +28,7 @@ main {
 
 /* === Button Style === */
 button {
-  background-color: ##C24641;
+  background-color: #C24641;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -38,7 +38,7 @@ button {
 }
 
 button:hover {
-  background-color: ##A52A2A;
+  background-color: #A52A2A;
 }
 
 /* === Footer === */
