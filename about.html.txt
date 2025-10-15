@@ -1,0 +1,18 @@
+`<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Index</title>
+<meta name="description" content="Differences and Similarities Between Soviet and American Imaginings of The Future">
+<meta name="keywords" content="Futurism">
+<meta name="author" content="Rachel S. Ky"> 
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>About the Author/h2>
+<img src="about.jpg" alt="photo of Rachel">
+<p> Rachel S. Ky. who has a bachelors in history, spent her undergrad focusing on the intellectual, political, and cultural developments between the United States and the Soviet Union as dominating Empires of  the twentieth century. 
+This website is a section of Rachel’s interest within the Cold War cultural and intellectual history – How do capitalist and aspiring communist visions of future differ and relate and how have those imagining affected the curation of culture within their respective mid-century media and design creations. 
+</p>
+</body>
+</html>
