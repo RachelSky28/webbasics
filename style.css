@@ -12,28 +12,30 @@ body {
 #header {
   background-color: White;
   color: #151B8D;
-  padding: 20xp;
+  padding: 2px;
   width: 93%;
   margin: auto;
   text-align: center;
 }
 nav {
   background-color: darkred;
-   display: flex;
+   display:flex;
   justify-content: space-evenly;
-  gap: 17px;
+  gap: 50px;
 }
 nav a {
   background-color: darkred;
   color: lightblue;
   text-decoration: none;
   padding: 7px 2px;
-  border-radius: 8px;
+  border-radius: 10px;
+  text-align-last: center;
   transition: background-color 0.3s, color 0.3s;
 }
 nav a:hover {
-  background-color: lightblue;
-  color: #fffb00;
+  background-color: #A0D6B4;
+  color: darkred;
+  width: 25%;
 }
 #centerbody {
   background-color:white;
@@ -58,3 +60,5 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 3rem;
+  font-size: 0.9rem;
+}
