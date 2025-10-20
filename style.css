@@ -5,19 +5,23 @@ body {
   padding: 20xp;
   font-family: "Trebuchet MS", Arial, sans-serif;
   background: #DC381F;
-  background-image: repeating-radial-gradient(circle,rgba(220, 56, 31, 1) 0%, rgba(253, 189, 1, 1) 21%, rgba(255, 248, 231, 1) 45%, rgba(154, 254, 255, 1) 50%, rgba(160, 214, 180, 1) 57%, rgba(65, 56, 57, 1) 86%, rgba(65, 56, 57, 1) 100%);
+  background-image: radial-gradient(circle,rgba(220, 56, 31, 1) 0%, rgba(253, 189, 1, 1) 21%, rgba(255, 248, 231, 1) 45%, rgba(154, 254, 255, 1) 50%, rgba(160, 214, 180, 1) 57%, rgba(65, 56, 57, 1) 86%, rgba(65, 56, 57, 1) 100%);
   color: #413839;
   line-height: 1.6;
   text-align: justify;
 }
 #header {
-  background-color: rgba(65, 56, 57, 0.1);
+  background-color: #41383970;
   backdrop-filter: blur(10px);
-  color: #D6A1C3;
+  border: 1px solid #4138394d; 
+  color: #f6d6eb;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 100px;
   width: 60%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
   text-align: center;
 }
 nav {
@@ -43,6 +47,7 @@ nav a:hover {
 }
 #centerbody {
   background-color:#FFF8E7;
+  backdrop-filter: blur(10px);
   color: #413839;
   padding: 20px;
   width: 60%;
@@ -59,7 +64,7 @@ nav a:hover {
   text-align: center;
   }
 footer {
-  background-color: rgba(65, 56, 57, 0.6);
+  background-color: #41383999;
   color: #D6A1C3;
   padding: auto;
   width: auto;
