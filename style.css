@@ -22,14 +22,15 @@ nav {
   background-color: #DC381F;
   display: flex;
   justify-content: space-evenly;
-  gap: 50px;
+  gap: auto;
+  padding: 5px;
 }
 nav a {
   background-color: #DC381F;
   color: #9AFEFF;
   text-decoration: none;
-  padding: 7px 2px;
-  border-radius: 20px;
+  padding: 2px;
+  border-radius: 100px;
   text-align-last: center;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -58,7 +59,7 @@ nav a:hover {
 footer {
   background-color: rgba(65, 56, 57, 0.4);
   color: #FFF8E7;
-  padding: 1px;
+  padding: auto;
   width: auto;
   margin: auto;
   text-align: center;
