@@ -4,28 +4,29 @@ body {
   margin-left: 40xp;
   padding: 20xp;
   font-family: "Trebuchet MS", Arial, sans-serif;
-  background-color: #F2F0DF;
-  color: #151B8D;
+  background: #DC381F;
+  background-image: radial-gradient(circle,rgba(220, 56, 31, 1) 0%, rgba(253, 189, 1, 1) 21%, rgba(255, 248, 231, 1) 45%, rgba(154, 254, 255, 1) 50%, rgba(160, 214, 180, 1) 57%, rgba(65, 56, 57, 1) 86%, rgba(65, 56, 57, 1) 100%);
+  color: #413839;
   line-height: 1.6;
   text-align: justify;
 }
 #header {
-  background-color: White;
-  color: #151B8D;
+  background-color: transparent;
+  color: #D6A1C3;
   padding: 2px;
   width: 93%;
   margin: auto;
-  text-align: center;
+  text-align:center;
 }
 nav {
-  background-color: darkred;
+  background-color: #DC381F;
    display:flex;
   justify-content: space-evenly;
   gap: 50px;
 }
 nav a {
-  background-color: darkred;
-  color: lightblue;
+  background-color: #DC381F;
+  color: #9AFEFF;
   text-decoration: none;
   padding: 7px 2px;
   border-radius: 10px;
@@ -33,13 +34,13 @@ nav a {
   transition: background-color 0.3s, color 0.3s;
 }
 nav a:hover {
-  background-color: #A0D6B4;
-  color: darkred;
+  background-color: #9AFEFF;
+  color: #DC381F;
   width: 25%;
 }
 #centerbody {
-  background-color:white;
-  color: #151B8D;
+  background-color:#FFF8E7;
+  color: #413839;
   padding: 20px;
   width: 89%;
   margin: auto;
@@ -47,16 +48,16 @@ nav a:hover {
   }
 #aboutbody {
   float: center;
-  background-color:white;
-  color: #151B8D;
+  background-color:#FFF8E7;
+  color: #413839;
   padding: 20px;
   width: 89%;
   margin: auto;
   text-align:center;
   }
 footer {
-  background-color: #A0D6B4;
-  color: darkred;
+  background-color: transparent;
+  color: #D6A1C3;
   text-align: center;
   padding: 1rem;
   margin-top: 3rem;
