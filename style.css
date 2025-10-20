@@ -56,11 +56,10 @@ nav a:hover {
   text-align: center;
   }
 footer {
-  background-color: #413839;
-  opacity: 0.8;
-  color: #DC381F;
+  background-color: rgba(65, 56, 57, 0.4);
+  color: #FFF8E7;
   padding: 1px;
-  width: fit-content;
+  width: auto;
   margin: auto;
   text-align: center;
 }
