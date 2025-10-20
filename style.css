@@ -6,7 +6,7 @@ body {
   font-family: "Trebuchet MS", Arial, sans-serif;
   background: #DC381F;
   background: #413839;
-  background: radial-gradient(circle, #fdbd01 10%, #d6a1c3 40%, #9afeff 45%, #A0D6B4 50%, #413839 66%, #DC381F 67%, #413839 65%, #413839 100%);
+  background: radial-gradient(circle, #FF6700 10%, #d6a1c3 40%, #9afeff 45%, #A0D6B4 50%, #413839 66%, #DC381F 67%, #413839 65%, #413839 100%);
   color: #413839;
   line-height: 1.6;
   text-align: justify;
@@ -15,7 +15,7 @@ body {
   background-color: #4138393c;
   backdrop-filter: blur(10px);
   border: 1px solid #4138394d; 
-  color: #e2bbd4;
+  color: #FFF8E7;
   padding: 20px;
   border-radius: 80px;
   width: 60%;
