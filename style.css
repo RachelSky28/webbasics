@@ -11,19 +11,21 @@ body {
   text-align: justify;
 }
 #header {
-  background: transparent;
-  color: #413839;
-  padding: 2px;
-  width: 93%;
+  background-color: rgba(65, 56, 57, 0.1);
+  backdrop-filter: blur(10px);
+  color: #D6A1C3;
+  padding: 20px;
+  border-radius: 10px;
+  width: 60%;
   margin: auto;
-  text-align:center;
+  text-align: center;
 }
 nav {
   background-color: #DC381F;
   display: flex;
   justify-content: space-evenly;
   gap: auto;
-  padding: 5px;
+  padding: 10px;
 }
 nav a {
   background-color: #DC381F;
@@ -57,8 +59,8 @@ nav a:hover {
   text-align: center;
   }
 footer {
-  background-color: rgba(65, 56, 57, 0.4);
-  color: #FFF8E7;
+  background-color: rgba(65, 56, 57, 0.6);
+  color: #D6A1C3;
   padding: auto;
   width: auto;
   margin: auto;
