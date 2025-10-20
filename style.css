@@ -11,7 +11,7 @@ body {
   text-align: justify;
 }
 #header {
-  background-color: transparent;
+  background: transparent;
   color: #413839;
   padding: 2px;
   width: 93%;
@@ -20,7 +20,7 @@ body {
 }
 nav {
   background-color: #DC381F;
-   display:flex;
+  display: flex;
   justify-content: space-evenly;
   gap: 50px;
 }
@@ -29,7 +29,7 @@ nav a {
   color: #9AFEFF;
   text-decoration: none;
   padding: 7px 2px;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align-last: center;
   transition: background-color 0.3s, color 0.3s;
 }
@@ -44,23 +44,23 @@ nav a:hover {
   padding: 20px;
   width: 60%;
   margin: auto;
-  text-align:justify;
+  text-align: justify;
   }
 #aboutbody {
   float: center;
-  background-color:#FFF8E7;
+  background-color: #FFF8E7;
   color: #413839;
   padding: 20px;
   width: 89%;
   margin: auto;
-  text-align:center;
+  text-align: center;
   }
 footer {
   background-color: #413839;
   opacity: 0.8;
   color: #DC381F;
   padding: 1px;
-  width:fit-content
+  width: fit-content;
   margin: auto;
   text-align: center;
 }
