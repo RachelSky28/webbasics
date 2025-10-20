@@ -24,7 +24,7 @@ nav {
   gap: 17px;
 }
 nav a {
-  background-color: darkred;   /* box color */
+  background-color: darkred;
   color: lightblue;
   text-decoration: none;
   padding: 7px 2px;
