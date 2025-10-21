@@ -14,7 +14,7 @@ body {
 #header {
   background-color: #4138393c;
   backdrop-filter: blur(10px);
-  border: 1px solid #4138394d; 
+  border: 1px outset #4138394d; 
   color: #FFF8E7;
   padding: 20px;
   border-radius: 80px;
@@ -47,21 +47,24 @@ nav a:hover {
   width: 25%;
 }
 #centerbody {
-  background-color:#FFF8E7;
-  backdrop-filter: blur(10px);
+  background-color:#fff8e7ff;
   color: #413839;
   padding: 20px;
   width: 60%;
-  margin: auto;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right:auto;
   text-align: justify;
   }
 #aboutbody {
   float: center;
-  background-color: #FFF8E7;
+  background-color: rgb(255, 248, 231);
   color: #413839;
   padding: 20px;
   width: 89%;
-  margin: auto;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   }
 footer {
