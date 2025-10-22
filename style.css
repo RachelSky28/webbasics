@@ -50,7 +50,7 @@ nav a:hover {
   background-color:#fff8e7ff;
   color: #413839;
   padding: 20px;
-  width: 60%;
+  width: 70%;
   margin-top: 15px;
   margin-left: auto;
   margin-right:auto;
@@ -58,10 +58,10 @@ nav a:hover {
   }
 #aboutbody {
   float: center;
-  background-color: rgb(255, 248, 231);
+  background-color: #fff8e7;
   color: #413839;
   padding: 20px;
-  width: 89%;
+  width: 70%;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
