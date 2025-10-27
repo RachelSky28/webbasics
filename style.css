@@ -46,9 +46,32 @@ nav a:hover {
   color: #DC381F;
   width: 25%;
 }
+a:link {
+  color: #9AFEFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #DC381F;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d6a1c3;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #d6a1c3;
+  background-color: transparent;
+  text-decoration: underline;
+}
 #centerbody {
-  background-color:#fff8e7ff;
-  color: #413839;
+  background-color:#413839;
+  color: #fff8e7;
   padding: 20px;
   width: 70%;
   margin-top: 15px;
@@ -58,8 +81,8 @@ nav a:hover {
   }
 #aboutbody {
   float: center;
-  background-color: #fff8e7;
-  color: #413839;
+  background-color: #413839;
+  color: #fff8e7;
   padding: 20px;
   width: 70%;
   margin-top: 15px;
