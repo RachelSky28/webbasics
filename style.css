@@ -67,6 +67,26 @@ nav a:hover {
   margin-right: auto;
   text-align: center;
   }
+a:link {
+  color: #9AFEFF;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: #9AFEFF;
+  background-color: transparent;
+  text-decoration: none;  
+}
+a:hover {
+  color: #d6a1c3;
+  background-color: transparent;
+  text-decoration: underline;  
+}
+a:active {
+  color: #d6a1c3;
+  background-color: transparent;
+  text-decoration: underline;  
+}
 footer {
   background-color: #41383999;
   color: #e2bbd4;
