@@ -26,7 +26,7 @@ body {
   text-align: center;
 }
 nav {
-  background-color: #DC381F;
+  background-color: transparent;
   display: flex;
   justify-content: space-evenly;
   gap: auto;
