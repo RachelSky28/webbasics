@@ -46,29 +46,6 @@ nav a:hover {
   color: #DC381F;
   width: 25%;
 }
-a:link {
-  color: #9AFEFF;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: #DC381F;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #d6a1c3;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-a:active {
-  color: #d6a1c3;
-  background-color: transparent;
-  text-decoration: underline;
-}
 #centerbody {
   background-color:#413839;
   color: #fff8e7;
