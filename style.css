@@ -26,14 +26,14 @@ body {
   text-align: center;
 }
 nav {
-  background-color: transparent;
+  background-color: #DC381F;
   display: flex;
   justify-content: space-evenly;
   gap: auto;
   padding: 10px;
 }
 nav a {
-  background-color: #DC381F;
+  background-color: transparent;
   color: #9AFEFF;
   text-decoration: none;
   padding: 2px;
