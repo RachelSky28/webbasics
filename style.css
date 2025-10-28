@@ -1,97 +1,129 @@
 
 body {
-  margin-right: 40xp;
-  margin-left: 40xp;
-  padding: 20xp;
-  font-family: "Trebuchet MS", Arial, sans-serif;
-  background: #DC381F;
-  background: #413839;
-  background: radial-gradient(circle, #FF6700 10%, #d6a1c3 40%, #9afeff 45%, #A0D6B4 50%, #413839 66%, #DC381F 67%, #413839 65%, #413839 100%);
-  color: #413839;
-  line-height: 1.6;
-  text-align: justify;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    background-color: #413839;
+    background-image:
+        radial-gradient(at 4% 19%, #dc381f, transparent 50%),
+        radial-gradient(at 15% 46%, #d6a1c3, transparent 50%),
+        radial-gradient(at 19% 0%, #A0D6B4, transparent 50%),
+        radial-gradient(at 68% 79%, #4682b4, transparent 50%),
+        radial-gradient(at 20% 36%, #4682b4, transparent 50%),
+        radial-gradient(at 77% 97%, #9AFEFF, transparent 50%),
+        radial-gradient(at 71% 70%, #b57847, transparent 50%);
+    background-size: cover;
+    color: #413839;
+    line-height: 2;
+    position: relative;
+    padding: 0xp;
+    margin-right: 40xp;
+    margin-left: 40xp; 
 }
 #header {
-  background-color: #4138393c;
-  backdrop-filter: blur(10px);
-  border: 1px outset #4138394d; 
-  color: #FFF8E7;
-  padding: 20px;
-  border-radius: 80px;
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  text-align: center;
+    background-color: #4138393b;
+    backdrop-filter: blur 40px;
+    mix-blend-mode: luminosity;
+    border: 0.5px outset #4138395a;
+    color: #FFF8E7;
+    padding: 20px;
+    border-radius: 100px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
 }
 nav {
-  background-color: #DC381F;
-  display: flex;
-  justify-content: space-evenly;
-  gap: auto;
-  padding: 10px;
+    background-color: #dc381f;
+    display: flex;
+    justify-content: space-evenly;
+    gap: auto;
+    padding: 10px;
 }
 nav a {
-  background-color: transparent;
-  color: #9AFEFF;
-  text-decoration: none;
-  padding: 2px;
-  border-radius: 100px;
-  text-align-last: center;
-  transition: background-color 0.3s, color 0.3s;
+    background-color: transparent;
+    color: #9AFEFF;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 70%;
+    text-align-last: center;
+    transition: background-color 0.3s, color 0.3s;
 }
 nav a:hover {
-  background-color: #9AFEFF;
-  color: #DC381F;
-  width: 25%;
+    background-color: #9AFEFF;
+    color: #DC381F;
+    width: 25%;
+}
+a:link {
+    color: #9AFEFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9AFEFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d6a1c3;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #d6a1c3;
+    background-color: transparent;
+    text-decoration: underline;
 }
 #centerbody {
-  background-color:#413839;
-  color: #fff8e7;
-  padding: 20px;
-  width: 70%;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right:auto;
-  text-align: justify;
+    background-color: #4138395a;
+    backdrop-filter: blur(50px);
+    color: #fff8e7;
+    padding: 20px;
+    width: 80%;  
+    margin-top: 15px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:justify;
   }
 #aboutbody {
-  float: center;
-  background-color: #413839;
-  color: #fff8e7;
-  padding: 20px;
-  width: 70%;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
+    float: center;
+    background-color: #4138395a;
+    backdrop-filter: blur(10px);
+    color: #fff8e7;
+    padding: 20px;
+    width: 70%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
-a:link {
-  color: #9AFEFF;
-  background-color: transparent;
-  text-decoration: none;
+.gallery-item {
+    margin: 10xp;
+    border: 1px solid #413839;
+    width: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
-a:visited {
-  color: #9AFEFF;
-  background-color: transparent;
-  text-decoration: none;  
+.gallery-item img {
+    width: 100%;
 }
-a:hover {
-  color: #d6a1c3;
-  background-color: transparent;
-  text-decoration: underline;  
+.desc {
+    text-align-last: justify;
+    padding: 10px;
 }
-a:active {
-  color: #d6a1c3;
-  background-color: transparent;
-  text-decoration: underline;  
+.galler-item hover{
+    border: 1px solid #413839;
 }
+
 footer {
-  background-color: #41383999;
-  color: #e2bbd4;
-  padding: auto;
-  width: auto;
-  margin: auto;
-  text-align: center;
+    background-color: transparent;
+    color: #e2bbd4;
+    padding: auto;
+    width: auto;
+    margin: auto;
+    text-align: center;
 }
