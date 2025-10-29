@@ -21,11 +21,11 @@ body {
 #header {
     
     backdrop-filter: blur 40px;
-    background-color: #4138395a;
+    background-color: #dc381f;
     border: 0.5px outset #4138395a;
     color: #A0D6B4;
     padding: 25px;
-    border-radius: 100px;
+    border-radius: 70%;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
@@ -46,7 +46,7 @@ nav a {
     color: #9AFEFF;
     text-decoration: none;
     padding: 2px;
-    border-radius: 70%;
+    border-radius: 50%;
     text-align-last: center;
     transition: background-color 0.3s, color 0.3s;
 }
@@ -133,9 +133,9 @@ td {
     clear: inline-end;
     background-color: #fff8e7; 
     border: 1px solid #fff8e7;
-    width: 35%;
+    width: 20%;
     margin: 10px;
-    position:relative;
+    position: relative;
 }
 .gallery-item img {
     width: 100%;
@@ -151,7 +151,7 @@ td {
 }
 .image-container {
     width: 30%;
-    height:auto;
+    height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 20px;
