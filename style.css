@@ -97,7 +97,9 @@ a:active {
     padding: 20px;
     width: 12%;  
     margin-left: 15px;
-    position: fixed;
+    margin-top: 15px;
+    position: relative;
+}
 }
 #centerbody {
     background-color: #4138395d;
