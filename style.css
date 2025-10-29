@@ -14,17 +14,17 @@ body {
     color: #fff8e7;
     line-height: 2;
     position: relative;
-    padding: 0xp;
-    margin-right: 40xp;
-    margin-left: 40xp; 
+    padding: 10px;
+    margin-right: 25px;
+    margin-left: 25px; 
 }
 #header {
-    backdrop-filter: blur 100px;
-    background-color:  #DC381F;
+    background-color:  #dc381f8c;
+    backdrop-filter: blur(70px);
     color: #A0D6B4;
-    padding: 25px;
-    border-radius: 70%;
-    width: 70%;
+    padding: 50px;
+    border-radius: 50%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -36,7 +36,7 @@ nav {
     background-color: #dc381f;
     display: flex;
     justify-content: space-evenly;
-    gap: auto;
+    gap: 25px;
     padding: 10px;
 }
 nav a {
@@ -81,7 +81,7 @@ a:active {
     backdrop-filter: blur(100px);
     color: #fff8e7;
     padding: 20px;
-    width: 60%;  
+    width: 50%;  
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -97,41 +97,37 @@ a:active {
     padding: 20px;
     width: 12%;  
     margin-left: 15px;
-    text-align: center;
-    display:flow-root;
-    position:fixed;
-  }
+    position: fixed;
+}
 #centerbody {
     background-color: #4138395d;
     backdrop-filter: blur(70px);
     color: #fff8e7;
     padding: 20px;
-    width: 70%;  
+    width: 75%;  
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
     font-size: medium;
-  }
+}
 #aboutbody {
-    float: center;
     background-color: transparent;
     color: #fff8e7;
     padding: 20px;
-    width: 70%;
+    width: 50%;
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     mix-blend-mode: luminosity;
-  }
+}
 table{
-    border: 2xp solid #b57847;
     position: relative;
 }
 th, td {
     padding: 5px;
-    border: 1px solid white;
+    border: 2px solid #b57847;
 }
 th {
     text-align:center;
@@ -193,10 +189,9 @@ td {
 footer {
     background-color: transparent;
     color: #e2bbd4;
-    float:left;
-    padding: auto;
+    padding: 25px;
     width: auto;
     margin: 40px;
-    text-align:left;
+    text-align:center;
     position:static;
 }
