@@ -111,7 +111,8 @@ a:active {
     margin-right: auto;
     text-align: justify;
     font-size: medium;
-    overflow: hidden;
+    overflow:hidden;
+    position: relative;
 }
 #aboutbody {
     background-color: transparent;
@@ -137,16 +138,15 @@ th {
     text-align:center;
 }
 td {
-    text-align: left;
+    text-align:left;
     word-wrap: break-word;
 }
 .gallery-item {
-    float: inline-start;
-    clear: inline-end;
+    float:left;
     background-color: #fff8e7;  
     width: 20%;
     margin: 10px;
-    position: relative;
+    object-fit:cover;
 }
 .gallery-item img {
     width: 100%;
@@ -168,8 +168,8 @@ td {
     margin-bottom: 10px;
     margin-left: 20px;
     float: right;
-    justify-content: center;
-    position: relative;
+    object-fit: contain;
+    
 }
 .image-container img {
   width: 100%;
@@ -183,8 +183,7 @@ td {
     margin-bottom: 10px;
     margin-right: 20px;
     float: left;
-    justify-content: center;
-    position: relative;
+    object-fit: contain;
 }
 .alt-image-container img {
   width: 100%;
