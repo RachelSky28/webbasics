@@ -111,6 +111,7 @@ a:active {
     margin-right: auto;
     text-align: justify;
     font-size: medium;
+    overflow: hidden;
 }
 #aboutbody {
     background-color: transparent;
@@ -136,11 +137,11 @@ th {
     text-align:center;
 }
 td {
-    text-align:left;
+    text-align: left;
     word-wrap: break-word;
 }
 .gallery-item {
-    float:inline-start;
+    float: inline-start;
     clear: inline-end;
     background-color: #fff8e7;  
     width: 20%;
