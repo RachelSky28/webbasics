@@ -19,10 +19,8 @@ body {
     margin-left: 40xp; 
 }
 #header {
-    
-    backdrop-filter: blur 40px;
-    background-color: #dc381f;
-    border: 0.5px outset #4138395a;
+    backdrop-filter: blur 100px;
+    background-color:  #DC381F;
     color: #A0D6B4;
     padding: 25px;
     border-radius: 70%;
@@ -32,7 +30,7 @@ body {
     margin-bottom: 20px;
     margin-top: 10px;
     text-align: center;
-    mix-blend-mode:color-dodge;
+    mix-blend-mode: color-dodge;
 }
 nav {
     background-color: #dc381f;
@@ -83,12 +81,25 @@ a:active {
     backdrop-filter: blur(100px);
     color: #fff8e7;
     padding: 20px;
-    width: 70%;  
+    width: 60%;  
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
     mix-blend-mode: luminosity;
+  }
+#leftbody {
+    float:left;
+    background-color: #4138395d;
+    backdrop-filter: blur(100px);
+    border: 3px outset #4138395d;
+    color: #b7f2cd;
+    padding: 20px;
+    width: 12%;  
+    margin-left: 15px;
+    text-align: center;
+    display:flow-root;
+    position:fixed;
   }
 #centerbody {
     background-color: #4138395d;
@@ -103,15 +114,14 @@ a:active {
   }
 #aboutbody {
     float: center;
-    background-color: #4138395a;
-    backdrop-filter: blur(10px);
+    background-color: transparent;
     color: #fff8e7;
     padding: 20px;
     width: 70%;
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
+    text-align: left;
     mix-blend-mode: luminosity;
   }
 table{
@@ -131,8 +141,7 @@ td {
 .gallery-item {
     float:inline-start;
     clear: inline-end;
-    background-color: #fff8e7; 
-    border: 1px solid #fff8e7;
+    background-color: #fff8e7;  
     width: 20%;
     margin: 10px;
     position: relative;
@@ -141,10 +150,11 @@ td {
     width: 100%;
 }
 .desc {
+    background-color: #fff8e7; 
     color: #413839;
-    text-align:left;
+    text-align: left;
     padding: 5px;
-    font-size:small;
+    font-size: small;
 }
 .galler-item hover{
     border: 1px solid #413839;
