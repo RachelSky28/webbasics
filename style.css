@@ -125,6 +125,8 @@ a:active {
 }
 table{
     position: relative;
+    width: 100%;
+    table-layout: fixed;
 }
 th, td {
     padding: 5px;
@@ -135,6 +137,7 @@ th {
 }
 td {
     text-align:left;
+    word-wrap: break-word;
 }
 .gallery-item {
     float:inline-start;
